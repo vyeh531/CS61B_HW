@@ -1,0 +1,50 @@
+Using InsertRandomSpeedTest:
+This program inserts random Strings of length L into different types of maps as <String, Integer> pairs.
+Please enter desired length of each string: 5
+
+Enter # strings to insert into the maps: 2000
+class ULLMap: 0.02 sec
+class BSTMap: 0.01 sec
+Java's Built-in TreeMap: 0.00 sec
+Java's Built-in HashMap: 0.00 sec
+Would you like to try more timed-tests? (y/n)y
+
+Enter # strings to insert into the maps: 5000
+class ULLMap: 0.06 sec
+class BSTMap: 0.00 sec
+Java's Built-in TreeMap: 0.00 sec
+Java's Built-in HashMap: 0.00 sec
+Would you like to try more timed-tests? (y/n)y
+
+Enter # strings to insert into the maps: 6000
+class ULLMap: 0.08 sec
+class BSTMap: 0.01 sec
+Java's Built-in TreeMap: 0.00 sec
+Java's Built-in HashMap: 0.00 sec
+Would you like to try more timed-tests? (y/n)n
+====================================================================================================
+Using InsertInOrderSpeedTest:
+This program inserts lexicographically increasing Strings into Maps as <String, Integer> pairs.
+
+Enter # strings to insert into the maps: 2000
+class ULLMap: 0.03 sec
+class BSTMap: 0.05 sec
+Java's Built-in TreeMap: 0.01 sec
+Java's Built-in HashMap: 0.00 sec
+Would you like to try more timed-tests? (y/n): y
+
+Enter # strings to insert into the maps: 5000
+class ULLMap: 0.11 sec
+class BSTMap: 0.19 sec
+Java's Built-in TreeMap: 0.01 sec
+Java's Built-in HashMap: 0.00 sec
+Would you like to try more timed-tests? (y/n): y
+
+Enter # strings to insert into the maps: 6000
+class ULLMap: 0.13 sec
+class BSTMap: 0.28 sec
+Java's Built-in TreeMap: 0.02 sec
+Java's Built-in HashMap: 0.00 sec
+=======================================================================================
+We can observe that the method from InsertRandomSpeedTest is much faster than the method from InsertInOrderSpeedTest.
+This is more obvious when the # of strings getting a larger number.

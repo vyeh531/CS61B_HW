@@ -1,0 +1,50 @@
+This program inserts random Strings of length L
+into different types of maps as <String, Integer> pairs.
+
+What would you like L to be?: 10
+
+Enter # strings to insert into ULLMap: 10000
+ULLMap: 0.26 sec
+
+Enter # strings to insert into your MyHashMap: 10000
+MyHashMap: 0.02 sec
+
+Enter # strings to insert into Java's HashMap: 10000
+Java's Built-in HashMap: 0.00 sec
+
+Would you like to try more timed-tests? (y/n)y
+
+Enter # strings to insert into ULLMap: 20000
+ULLMap: 1.02 sec
+
+Enter # strings to insert into your MyHashMap: 20000
+MyHashMap: 0.03 sec
+
+Enter # strings to insert into Java's HashMap: 20000
+Java's Built-in HashMap: 0.00 sec
+
+Would you like to try more timed-tests? (y/n)n
+================
+ This program inserts lexicographically increasing Stringsinto Maps as <String, Integer> pairs.
+
+Enter # strings to insert into ULLMap: 20000
+ULLMap: 1.25 sec
+
+Enter # strings to insert into MyHashMap: 20000
+MyHashMap: 0.05 sec
+
+Enter # strings to insert into Java's HashMap: 20000
+Java's Built-in HashMap: 0.02 sec
+
+Would you like to try more timed-tests? (y/n): n
+
+Process finished with exit code 0
+================
+The state-of-the-art HashMaps are relatively easy
+to implement compared to state-of-the-art TreeMaps.
+
+A BSTMap or TreeMap is better than a HashMap when 
+the data needs to be sorted based on the keys or
+range queries are required. A TreeMap maintains the
+keys in sorted order, while a HashMap does not
+guarantee the order of the keys.
